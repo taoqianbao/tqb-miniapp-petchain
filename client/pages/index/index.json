@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "朋友买卖",
+  "usingComponents": {
+    "cp-userdata": "/components/userdata/userdata",
+    "cp-dialog"  : "/components/dialog/dialog",
+    "cp-comenu"  : "/components/menu/comenu",
+    "cp-torment": "/components/torment/torment"
+  },
+  "enablePullDownRefresh": true
+}

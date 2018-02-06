@@ -1,0 +1,42 @@
+<!--pages/index/index.wxml-->
+<view class="container">
+  <!-- 用户头部数据 -->
+  <cp-userdata class="cp-userdata-wrap"></cp-userdata>
+
+  <!-- 菜单部分 -->
+  <cp-comenu class="cp-menuinfo"></cp-comenu>
+
+  <!-- 奴隶区部分 -->
+  <view class="section">
+
+    <view id="green" class="scroll-view-item bc_green">
+      <image class="section-image" src="../../assets/imgs/user-unlogin.png" mode="scaleToFill"></image>
+      <button type="default" class="bc_blue" bindtap='showTormentDialog'> 买奴隶 </button>
+    </view>
+    <view id="red" class="scroll-view-item bc_red">
+      <image class="section-image" src="../../assets/imgs/user-unlogin.png" mode="scaleToFill"></image>
+      <button type="default" class="bc_blue" bindtap='showTormentDialog'> 买奴隶 </button>
+    </view>
+    <view id="yellow" class="scroll-view-item bc_yellow">
+      <image class="section-image" src="../../assets/imgs/user-unlogin.png" mode="scaleToFill"></image>
+      <button type="default" class="bc_blue" bindtap='showTormentDialog'> 买奴隶 </button>
+    </view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+    <view id="green" class="scroll-view-item bc_green"></view>
+    <view id="red" class="scroll-view-item bc_red"></view>
+    <view id="yellow" class="scroll-view-item bc_yellow"></view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+    <view id="blue" class="scroll-view-item bc_blue"></view>
+
+  </view>
+
+  <view>
+    邀请好友 奖励500金
+  </view>
+
+  <!-- 测试弹出层 -->
+  <cp-dialog id='dialog' title='我是标题' content='恭喜你，学会了小程序组件' cancelText='知道了' confirm='谢谢你' bind:cancelEvent="_cancelEvent" bind:confirmEvent="_confirmEvent"></cp-dialog>
+
+  <!--折磨弹出层-->
+  <cp-torment id='tormentdialog' title='我是标题' content='恭喜你，学会了小程序组件' cancelText='知道了' confirm='谢谢你' bind:cancelEvent="_cancelEvent" bind:confirmEvent="_confirmEvent"></cp-torment>
+</view>

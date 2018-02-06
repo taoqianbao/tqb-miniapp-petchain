@@ -1,0 +1,31 @@
+<!--pages/message/message.wxml-->
+<!--pages/market/market.wxml-->
+<view class="container">
+  <!-- 用户头部数据 -->
+  <cp-userdata class="cp-userdata-wrap"></cp-userdata>
+
+  <!-- 菜单部分 -->
+  <cp-comenu class="cp-menuinfo"></cp-comenu>
+
+  <!-- 奴隶区部分 -->
+  <view class="section">
+
+    <view class='section-item'>
+      <view>你把奴隶 <text>小王</text> 的昵称改为 <text>“中原一点红”</text>。</view>
+    </view>
+
+    <view class='section-item'>
+      <text>你把奴隶 小王 的昵称改为 “中原一点红”。</text>
+    </view>
+
+    <view class='section-item'>
+      <text>你把奴隶 小王 的昵称改为 “中原一点红”。</text>
+    </view>
+
+    <view class='section-item'>
+      <text>你把奴隶 小王 的昵称改为 “中原一点红”。</text>
+    </view>
+
+  </view>
+</view>
+

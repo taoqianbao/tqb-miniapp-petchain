@@ -1,0 +1,58 @@
+<!--pages/chain/splash/splash.wxml-->
+<view class='container'>
+
+  <!-- splach -->
+  <view class='splash'>
+
+    <view class='splash-content'>
+      <view class='splash-flash-box' style="transform: translateX(-{{marqueeDistance}}px)">
+        <view class='splash-flash-content1'>
+          <image class='splash-content-img' mode="aspectFill" lazy-load='true' src="https://pet-chain.baidu.com/static/pkg/image/page/Splash/img/bg_39c0ea7.png"></image>
+        </view>
+        <view class='splash-flash-content2'>
+          <image class='splash-content-img' mode="aspectFill" lazy-load='true' src="https://pet-chain.baidu.com/static/pkg/image/page/Splash/img/bg_39c0ea7.png"></image>
+        </view>
+      </view>
+
+    </view>
+
+    <view class='splash-title'>
+      <text>可爱</text>
+      <text>唯一</text>
+      <text>值得收藏</text>
+    </view>
+
+    <view class='splash-abstract'>
+      <text>世界上总有属于你的唯一</text>
+      <text>我在云端，等待你的陪伴</text>
+    </view>
+
+    <view class='jump-to-market'>
+      <navigator url="/pages/market/market">
+        <text>逛逛奴隶市场 ></text>
+      </navigator>
+    </view>
+
+  </view>
+
+  <view class='footer'>
+    <button type='warn' class="btnnew" bindtap='onShowSuccess'>立刻邀请</button>
+  </view>
+
+  <!-- mini-popup -->
+  <view class='mini-popup' wx:if="{{isShowPopup}}">
+    <view class='v-model' style="z-index:2002; position:fixed; left:0; top:0; width:100%;height:100%;opacity:.5; background:#000;">
+    </view>
+    <view class='mini-popup-warp' style='z-index:2003; position:fixed; left:50%; top:50%; transform: translate3d(-50%,-50%,0);transition: .2s ease-out; width:80%;'>
+      <view>
+        <image style="width:100%;" mode='widthFix' src='https://pet-chain.baidu.com/static/pkg/image/page/Splash/img/adopt_b91c8a7.png'></image>
+      </view>
+      <view class='other-app' style="display:flex;justify-content: center; width:100%;" 
+      bindtap='onHideSuccess'>
+        <image src="https://pet-chain.baidu.com/static/pkg/image/page/Splash/img/button_1_223e009.png" style='width:150rpx;' mode='widthFix'></image>
+      </view>
+    </view>
+  </view>
+  <!-- mini-popup -->
+
+</view>

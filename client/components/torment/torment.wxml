@@ -1,0 +1,46 @@
+<!--components/torment/torment.wxml-->
+<view class='wx_dialog_container' hidden="{{!isShow}}">
+  <view class='wx-mask'></view>
+  <view class='wx-dialog'>
+    <view class='wx-dialog-title'>功能</view>
+    <view class='wx-dialog-content'>
+
+      <!--用户数据-->
+      <view class='torment-user'>
+        <image class="userinfo-avatar" src="../../assets/imgs/user-unlogin.png" background-size="cover"></image>
+        <view>
+          <text>王小明</text>
+          <text>怒气值：88888</text>
+          <text>力量值：88888</text>
+          <text>状态：打工中（倒计时10000）</text>
+        </view>
+      </view>
+      <!-- 折磨列表 -->
+      <view class='torment-list'>
+        <view bindtap="tormentAction" data-type="wamei">
+          挖煤
+        </view>
+        <view bindtap="tormentAction" data-type="wamei">
+          洗马桶
+        </view>
+        <view bindtap="tormentAction" data-type="wamei">
+          洗脚
+        </view>
+        <view bindtap="tormentAction" data-type="wamei">
+          要饭
+        </view>
+        <view bindtap="tormentAction" data-type="wamei">
+          冬泳
+        </view>
+        <view bindtap="tormentAction" data-type="wamei">
+          未解锁
+        </view>
+      </view>
+
+    </view>
+    <view class='wx-dialog-footer'>
+      <view class='wx-dialog-btn' catchtap='_cancelEvent'>{{ cancelText }}</view>
+      <view class='wx-dialog-btn' catchtap='_confirmEvent'>{{ confirmText }}</view>
+    </view>
+  </view>
+</view>

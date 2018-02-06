@@ -1,0 +1,28 @@
+<!--pages/toptenz/toptenz.wxml-->
+<view class="container">
+
+  <view class='menu-select-btns'>
+    <button type='default'>好友</button>
+    <button type='default'>世界</button>
+  </view>
+
+  <view class='toptenz-container'>
+
+    <view class='toptenz-item' wx:for="{{arraylist}}">
+
+      <view class='toptenz-item-l'>
+        <image class="section-item-avatar" src="../../assets/imgs/user-unlogin.png" background-size="cover"></image>
+      </view>
+
+      <view class='toptenz-item-r'>
+        <text>Peter Zhu</text>
+        <text>来自：上海</text>
+        <text>奴隶等级</text>
+        <text>¥333333</text>
+      </view>
+
+    </view>
+
+  </view>
+
+</view>

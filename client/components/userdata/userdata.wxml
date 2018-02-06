@@ -1,0 +1,27 @@
+<!--components/userdata/userdata.wxml-->
+<!-- user info -->
+<view class='cp-userdata'>
+  <view class='cp-userdata-basic'>
+    <navigator url="/pages/index/index">
+      <image class="cp-userinfo-avatar" src="{{logged ? userInfo.avatarUrl : './user-unlogin.png'}}" background-size="cover"></image>
+    </navigator>
+    <view class='cp-userdata-basic-class'>
+      <slot></slot>
+    </view>
+  </view>
+  <view class='cp-userdata-info'>
+    <view>
+      <text class='iconfont icon-renwen'></text>
+      <text>9833</text>
+    </view>
+    <view>
+      <text class='iconfont icon-money'></text> 9833
+    </view>
+    <view>
+      <text class='iconfont icon-renwen'></text> 9833
+    </view>
+    <view>
+      <text class='iconfont icon-renwen'></text> 9833
+    </view>
+  </view>
+</view>

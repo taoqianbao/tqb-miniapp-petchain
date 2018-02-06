@@ -1,0 +1,23 @@
+<!--components/menu/comenu.wxml-->
+<view class="menuinfo">
+  <view class='menuinfo-item'>
+    <navigator url="/pages/toptenz/toptenz" hover-class="navigator-hover">
+      <text>排行榜</text>
+    </navigator>
+  </view>
+  <view class='menuinfo-item'>
+    <navigator url="/pages/market/market" hover-class="navigator-hover">
+      <text>奴隶市场</text>
+    </navigator>
+  </view>
+  <view class='menuinfo-item'>
+    <navigator url="/pages/message/message" hover-class="navigator-hover">
+      <text>消息中心</text>
+    </navigator>
+  </view>
+  <view class='menuinfo-item'>
+    <navigator url="/pages/center/center" hover-class="navigator-hover">
+      <text>菜单中心</text>
+    </navigator>
+  </view>
+</view>

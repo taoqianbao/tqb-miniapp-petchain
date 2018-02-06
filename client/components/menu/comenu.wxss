@@ -1,0 +1,28 @@
+/* components/menu/comenu.wxss */
+
+.menuinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  margin-top: 10rpx;
+}
+
+.menuinfo-item {
+  width: 25%;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 256, 0.1); /*test*/
+  border-right: none;
+}
+
+.menuinfo-item:last-child {
+  border-right: 1px solid red; /*test*/
+}
+
+.menuinfo-item navigator {
+  width: 100%;
+  height: 100%;
+  padding: 20rpx 0;
+}

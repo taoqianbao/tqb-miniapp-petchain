@@ -1,0 +1,13 @@
+/**app.wxss**/
+@import "/libs/style/iconfont.wxss";
+
+page {
+  font-size: 20rpx;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}

@@ -1,0 +1,40 @@
+/* pages/center/center.wxss */
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.container {
+  height: auto;
+}
+.list {
+  height: auto;
+  width: 100%;
+  background: #fff;
+  padding: 0 0 0 40rpx;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  transition: all 300ms ease;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+
+.list-item {
+  width: 43%;
+  height: 200rpx;
+  padding: 10%;
+  line-height: 104rpx;
+  font-size: 34rpx;
+  color: #007aff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}

@@ -1,0 +1,48 @@
+/* components/userdata/userdata.wxss */
+@import "/libs/style/iconfont.wxss";
+
+.cp-userdata {
+  width: 100%;
+}
+.cp-userdata {
+  margin-top: 40rpx;
+  height: 140rpx;
+  width: 100%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: none;
+  border-right: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  transition: all 300ms ease;
+}
+
+.cp-userdata-basic {
+  
+}
+.cp-userdata-basic-class {
+
+}
+.cp-userdata-info {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cp-userdata-info view {
+  width: 20%;
+  font-size: 20rpx;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);/*test*/
+}
+
+.cp-userinfo-avatar {
+    width: 100rpx;
+    height: 100rpx;
+    margin: 20rpx;
+    border-radius: 50%;
+}

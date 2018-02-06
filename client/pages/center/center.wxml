@@ -1,0 +1,29 @@
+<!--pages/center/center.wxml-->
+<view class="container">
+  <view class='list'>
+    <view class="list-item">
+      <navigator url="/pages/market/market" hover-class="navigator-hover">
+        <text>奴隶市场</text>
+      </navigator>
+    </view>
+    <view class="list-item">
+      <navigator url="/pages/toptenz/toptenz" hover-class="navigator-hover">
+        <text>排行榜</text>
+      </navigator>
+    </view>
+    <view class="list-item">
+      <navigator url="/pages/message/message" hover-class="navigator-hover">
+        <text>消息中心</text>
+      </navigator>
+    </view>
+    <view class="list-item">
+      <text>人口学院</text>
+    </view>
+    <view class="list-item">
+      <text>物品</text>
+    </view>
+    <view class="list-item">
+      <text>设置</text>
+    </view>
+  </view>
+</view>

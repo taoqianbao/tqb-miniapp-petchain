@@ -1,0 +1,78 @@
+<!--pages/market/market.wxml-->
+<view class="container">
+  <!-- 用户头部数据 -->
+  <cp-userdata class="cp-userdata-wrap"></cp-userdata>
+
+  <!-- 菜单部分 -->
+  <cp-comenu class="cp-menuinfo"></cp-comenu>
+
+  <!-- 奴隶区部分 -->
+  <view class="section">
+    <!-- slogan -->
+    <view id="slogan" style='width:100%;'>
+      <image style="width:100%" mode="widthFix" src="https://pet-chain.baidu.com/static/pkg/image/page/DogMarket/img/adi_d3c93dc.png"></image>
+    </view>
+
+
+    <view class="section-sort">
+      <view class="section-sort-title">排序</view>
+      <view class="section-sort-items">
+        <view class="section-sort-item">
+          <text>稀有度</text>
+          <image class='filter DESC'></image>
+        </view>
+        <view class="section-sort-item">
+          <text>价格</text>
+          <image class='filter ASC'></image>
+        </view>
+      </view>
+    </view>
+    <!-- item img view  -->
+    <view class="section-imgview">
+      <view class="section-imgview-items">
+        <block wx:for="{{[1, 2, 3]}}" wx:key>
+          <navigator url="/pages/slave/detail/detail">
+            <view class="section-imgview-item">
+              <image mode="widthFix" src="https://blockchain-pet-online.bj.bcebos.com/PET_SVG_f183fa04f4b1300c110fae013afe64ad">
+              </image>
+              <view class="tags">
+                <text class="raredegree">普通</text>
+                <text class='generation'>第0代</text>
+              </view>
+              <view class="nickname">小菜 0000383883</view>
+              <view class="money">20000.00金币</view>
+            </view>
+          </navigator>
+        </block>
+      </view>
+    </view>
+
+    <!-- item list view -->
+    <view class='section-item'>
+      <image class="section-item-avatar" src="../../assets/imgs/user-unlogin.png" background-size="cover"></image>
+      <view class='section-item-info'>
+        <text>王红米(自由身)</text>
+        <text>身价：¥310</text>
+        <text>资产：¥33310</text>
+        <text>现金：¥31032</text>
+      </view>
+      <view class='section-item-btns'>
+        <button type="default" class="section-item-btn"> 买奴隶 </button>
+      </view>
+    </view>
+
+    <view class='section-item'>
+      <image class="section-item-avatar" src="../../assets/imgs/user-unlogin.png" background-size="cover"></image>
+      <view class='section-item-info'>
+        <text>王红米(自由身)</text>
+        <text>身价：¥310</text>
+        <text>资产：¥33310</text>
+        <text>现金：¥31032</text>
+      </view>
+      <view class='section-item-btns'>
+        <button type="default"> 买奴隶 </button>
+      </view>
+    </view>
+
+  </view>
+</view>

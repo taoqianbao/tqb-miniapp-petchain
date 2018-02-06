@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "奴隶市场",
+  "usingComponents": {
+    "cp-userdata": "/components/userdata/userdata",
+    "cp-dialog": "/components/dialog/dialog",
+    "cp-comenu": "/components/menu/comenu"
+  },
+  "enablePullDownRefresh": true
+}

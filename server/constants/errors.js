@@ -1,0 +1,7 @@
+module.exports = {
+    // 数据库错误
+    DBERR: {
+        ERR_WHEN_INSERT_TO_DB: 'ERR_WHEN_INSERT_TO_DB',
+        ERR_NO_SKEY_ON_CALL_GETUSERINFOFUNCTION: 'ERR_NO_SKEY_ON_CALL_GETUSERINFOFUNCTION'
+    }
+}

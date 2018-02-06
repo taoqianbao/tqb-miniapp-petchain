@@ -1,0 +1,166 @@
+/* pages/market/market.wxss */
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.cp-userdata-wrap {
+  width: 100%;
+}
+
+.cp-menuinfo {
+  width: 100%;
+}
+
+/*section*/
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.section-item {
+  width: 100%;
+  margin: 20rpx 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-item .section-item-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 30rpx;
+}
+
+.section-item .section-item-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.section-item .section-item-btns {
+  width: 150rpx;
+  margin-right: 10rpx;
+}
+
+.section-item .section-item-btns button {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+}
+
+/*
+section sort 
+*/
+
+.section-sort {
+  width: 100%;
+  height: 75rpx;
+  font-size: 28rpx;
+  color: #666;
+  border-bottom: 1rpx solid #f1f1f1;
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-sort-title {
+  flex: 1;
+}
+
+.section-sort-items {
+  display: flex;
+  justify-content: flex-end;
+  width: 300rpx;
+}
+
+.section-sort-item {
+  flex: 1;
+  text-align: right;
+}
+
+.section-sort-item .filter {
+  background: url(https://pet-chain.baidu.com/static/pkg/image/static/img/filter.svg);
+}
+
+.section-sort-item .DESC {
+  transform: scaleY(-1);
+}
+
+.section-sort-item .ASC {
+}
+
+.section-sort-item image {
+  margin: 5rpx;
+  width: 20rpx;
+  height: 20rpx;
+}
+
+/*item img view*/
+
+.section-imgview {
+  width: 100%;
+  font-size: 28rpx;
+}
+
+.section-imgview-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.section-imgview-items navigator {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx 1%;
+}
+
+.section-imgview-item {
+  width: 100%;
+}
+
+.section-imgview-item image {
+  width: 100%;
+  border-radius: 5rpx;
+  background: rgb(251, 233, 231);
+}
+
+.section-imgview-item .tags {
+  width: 100%;
+  display: flex;
+  font-size: 20rpx;
+  line-height: 20rpx;
+}
+
+.section-imgview-item .tags text {
+  color: white;
+  margin: 10rpx;
+  padding: 3rpx 8rpx;
+  border-radius: 5rpx;
+}
+
+.section-imgview-item .tags .raredegree {
+  background: #f76707;
+}
+
+.section-imgview-item .tags .generation {
+  background: #d3931a;
+}
+
+.section-imgview-item .nickname {
+  width: 100%;
+  color: #000;
+}
+
+.section-imgview-item .money {
+  width: 100%;
+  color: #f76707;
+}

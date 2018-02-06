@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "消息中心",
+  "usingComponents": {
+    "cp-userdata": "/components/userdata/userdata",
+    "cp-dialog": "/components/dialog/dialog",
+    "cp-comenu": "/components/menu/comenu"
+  }
+}

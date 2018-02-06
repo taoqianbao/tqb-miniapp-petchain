@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/market/market",
+    "pages/index/index",
+    "pages/chain/splash/splash",
+    "pages/center/center",
+    "pages/toptenz/toptenz",
+    "pages/user/user",
+    "pages/addCgi/addCgi",
+    "pages/message/message",
+    "pages/slave/detail/detail"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "朋友买卖",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/market/market",
+        "text": "奴隶市场"
+      },
+      {
+        "pagePath": "pages/chain/splash/splash",
+        "text": "我的奴隶"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}
