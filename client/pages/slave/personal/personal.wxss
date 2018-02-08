@@ -1,0 +1,165 @@
+/* pages/slave/personal/personal.wxss */
+
+/*owner*/
+
+.personal-info {
+  margin: 40rpx 0;
+  padding: 0 30rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.personal-info .info {
+  flex: 1;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 32rpx;
+  line-height: 32rpx;
+}
+
+.personal-info .info text {
+  padding-bottom: 10rpx;
+}
+
+.personal-info .name {
+  color: #999;
+}
+
+.personal-info .price {
+  color: #f76707;
+}
+
+.personal-info .icon {
+  width: 200rpx;
+}
+
+.personal-info .icon image {
+  width: 120rpx;
+  border-radius: 60rpx;
+}
+
+/*item img view*/
+
+.section-imgview {
+  width: 100%;
+  font-size: 28rpx;
+}
+
+.section-imgview-items {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section-imgview-items navigator {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  margin: 30rpx 1%;
+}
+
+.section-imgview-item {
+  width: 100%;
+}
+
+.section-imgview-item image {
+  width: 100%;
+  border-radius: 5rpx;
+  background: rgb(251, 233, 231);
+}
+
+.section-imgview-item .tags {
+  width: 100%;
+  display: flex;
+  font-size: 20rpx;
+  line-height: 20rpx;
+}
+
+.section-imgview-item .tags text {
+  color: white;
+  margin: 10rpx;
+  padding: 3rpx 8rpx;
+  border-radius: 5rpx;
+}
+
+.section-imgview-item .tags .raredegree {
+  background: #f76707;
+}
+
+.section-imgview-item .tags .generation {
+  background: #d3931a;
+}
+
+.section-imgview-item .nickname {
+  width: 100%;
+  color: #000;
+}
+
+.section-imgview-item .money {
+  width: 100%;
+  color: #f76707;
+}
+
+/*menu container*/
+
+.menu-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2rpx solid #999;
+  font-size: 28rpx;
+  height: 60rpx;
+  color: #666;
+}
+
+.menu-container .menus {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  height: 100%;
+}
+
+.menu-container .menus view {
+  width: auto;
+  padding: 10rpx 0;
+  margin: 0 20rpx;
+}
+
+.menu-container .menus .active {
+  border-bottom: 4rpx solid #333;
+  color: #333;
+}
+
+.menu-container .helps {
+  width: 200rpx;
+  height: 100%;
+}
+
+/*section-orderview*/
+
+.section-orderview {
+  display: flex;
+  height: auto;
+  justify-content: center;
+}
+
+.no-data {
+  width: 100%;
+  margin-top: 40rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.no-data image {
+  width: 200rpx;
+}
+
+.no-data .info {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 32rpx;
+}

@@ -28,7 +28,7 @@
     </view>
 
     <view class='jump-to-market'>
-      <navigator url="/pages/market/market">
+      <navigator open-type="switchTab" url="/pages/market/market">
         <text>逛逛奴隶市场 ></text>
       </navigator>
     </view>
@@ -47,8 +47,7 @@
       <view>
         <image style="width:100%;" mode='widthFix' src='https://pet-chain.baidu.com/static/pkg/image/page/Splash/img/adopt_b91c8a7.png'></image>
       </view>
-      <view class='other-app' style="display:flex;justify-content: center; width:100%;" 
-      bindtap='onHideSuccess'>
+      <view class='other-app' style="display:flex;justify-content: center; width:100%;" bindtap='onHideSuccess'>
         <image src="https://pet-chain.baidu.com/static/pkg/image/page/Splash/img/button_1_223e009.png" style='width:150rpx;' mode='widthFix'></image>
       </view>
     </view>

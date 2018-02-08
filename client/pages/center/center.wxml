@@ -2,7 +2,7 @@
 <view class="container">
   <view class='list'>
     <view class="list-item">
-      <navigator url="/pages/market/market" hover-class="navigator-hover">
+      <navigator open-type="switchTab" url="/pages/market/market" hover-class="navigator-hover">
         <text>奴隶市场</text>
       </navigator>
     </view>
@@ -17,12 +17,22 @@
       </navigator>
     </view>
     <view class="list-item">
+      <navigator url="/pages/chain/splash/splash" hover-class="navigator-hover">
+        <text>邀请好友</text>
+      </navigator>
+    </view>
+    <view class="list-item">
+      <navigator open-type="switchTab" url="/pages/slave/personal/personal" hover-class="navigator-hover">
+        <text>我的奴隶</text>
+      </navigator>
+    </view>
+    <view class="list-item disable">
       <text>人口学院</text>
     </view>
-    <view class="list-item">
+    <view class="list-item disable">
       <text>物品</text>
     </view>
-    <view class="list-item">
+    <view class="list-item disable">
       <text>设置</text>
     </view>
   </view>

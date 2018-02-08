@@ -12,5 +12,28 @@
 	},
 	"appid": "wx7edeeb3edee2b00e",
 	"projectname": "petchain",
-	"condition": {}
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": -1,
+			"list": [
+				{
+					"id": 0,
+					"name": "testCenter",
+					"pathName": "pages/slave/detail/detail",
+					"query": ""
+				}
+			]
+		}
+	}
 }

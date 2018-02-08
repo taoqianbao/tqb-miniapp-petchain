@@ -1,0 +1,31 @@
+<!--pages/market/detail-list/detail-list.wxml-->
+<view class='section'>
+
+  <!-- item list view -->
+  <view class='section-item'>
+    <image class="section-item-avatar" src="../../assets/imgs/user-unlogin.png" background-size="cover"></image>
+    <view class='section-item-info'>
+      <text>王红米(自由身)</text>
+      <text>身价：¥310</text>
+      <text>资产：¥33310</text>
+      <text>现金：¥31032</text>
+    </view>
+    <view class='section-item-btns'>
+      <button type="default" class="section-item-btn"> 买奴隶 </button>
+    </view>
+  </view>
+
+  <view class='section-item'>
+    <image class="section-item-avatar" src="../../assets/imgs/user-unlogin.png" background-size="cover"></image>
+    <view class='section-item-info'>
+      <text>王红米(自由身)</text>
+      <text>身价：¥310</text>
+      <text>资产：¥33310</text>
+      <text>现金：¥31032</text>
+    </view>
+    <view class='section-item-btns'>
+      <button type="default"> 买奴隶 </button>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,59 @@
+<!--pages/slave/personal/personal.wxml-->
+<view class="app">
+  <!-- personal-info -->
+  <view class="personal-info">
+    <view class="info">
+      <text class="name">petsoso</text>
+      <text class="price">10000金币</text>
+    </view>
+    <view class="icon">
+      <image mode="widthFix" src="https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/a132706574736f736f5705"></image>
+    </view>
+  </view>
+
+  <!-- menu container -->
+  <view class="menu-container">
+    <view class="menus">
+      <view wx:if="{{menuActiveId == 1}}" class="active" bindtap='onShowMenu' data-menuid="1">我的奴隶</view>
+      <view wx:else bindtap='onShowMenu' data-menuid="1">我的奴隶</view>
+      <view wx:if="{{menuActiveId == 2}}" class="active" bindtap='onShowMenu' data-menuid="2">我的订单</view>
+      <view wx:else bindtap='onShowMenu' data-menuid="2">我的订单</view>
+    </view>
+    <view class="helps">
+      <navigator url="/pages/chain/introduce/introduce">买卖介绍 ></navigator>
+    </view>
+  </view>
+  <!-- list container -->
+  <!-- item img view  -->
+  <view class="section-imgview" wx:if="{{menuActiveId == 1}}">
+    <view class="section-imgview-items">
+      <block wx:for="{{[1, 2, 3]}}" wx:key>
+        <navigator url="/pages/slave/detail/detail">
+          <view class="section-imgview-item">
+            <image mode="widthFix" src="https://blockchain-pet-online.bj.bcebos.com/PET_SVG_f183fa04f4b1300c110fae013afe64ad">
+            </image>
+            <view class="tags">
+              <text class="raredegree">普通</text>
+              <text class='generation'>第0代</text>
+            </view>
+            <view class="nickname">小菜 0000383883</view>
+            <view class="money">20000.00金币</view>
+          </view>
+        </navigator>
+      </block>
+    </view>
+  </view>
+  <!-- order view -->
+  <view class="section-orderview" wx:else>
+    <view class="no-data">
+      <image mode="widthFix" src="https://pet-chain.baidu.com/static/pkg/image/static/img/empty_b3e0548.png"></image>
+      <view class='info'>
+        <text>啊哦～啊哦～</text>
+        <text>好像还没有奴隶的订单</text>
+      </view>
+    </view>
+
+  </view>
+
+
+</view>

@@ -1,0 +1,57 @@
+<!--pages/chain/introduce/introduce.wxml-->
+<view class='app'>
+  <view class='intro-header'>
+    <image mode='widthFix' src="https://pet-chain.baidu.com/static/pkg/image/page/Introduce/img/introduce_89c3283.png"></image>
+
+  </view>
+  <view class="intro-content">
+
+    <view class='title'>Who am I?</view>
+    <view class='info'>
+      <text>汪汪汪~</text>
+
+      <text>我是区块链赋能的奴隶。</text>
+
+      <text>我的小伙伴们，每只都有独一无二的基因。</text>
+
+      <text>一旦你拥有了我，我们的关系将被永远记录在区块链上，任何人都不能改变。</text>
+
+      <text>我有8个外貌特征，每个特征有两种不同的属性：稀有属性和普通属性。这些属性组合起来，将会决定我最终的稀有等级（普通、稀有、卓越、史诗、神话、传说）。</text>
+    </view>
+    <view class='title'>How can I play?</view>
+    <view class='info'>
+      <text>你可以在市场中，通过数字货币—金币，购买你心仪的奴隶。</text>
+
+      <text>你也能在个人中心，查看并出售你所拥有的奴隶。</text>
+
+    </view>
+
+    <view class='title'>开发团队</view>
+    <view class='info'>
+
+      新聚客研发团队，拥有完整的企业级区块链解决方案，以及面向用户的应用级区块链解决方案。该团队深入底层技术、平台化、区块链应用以及前瞻性领域研究，目前的技术已应用于多条核心业务线，支撑了超5亿元资产的真实性问题。
+
+    </view>
+    <view class='tips'>
+
+      <view>特别提示:</view>
+      <view>
+        <text>01.</text>
+        <text>点击免费领取后，系统将通过区块链，把属于你的奴隶和金币发放到你的账户中。当领取人数较多时，写入区块链时间可能较长，请耐心等待。</text>
+      </view>
+      <view>
+        <text>02.</text>
+        <text>当你提交购买订单后，由于订单需要写入区块链，将要一段交易确认时间。待交易确认后，才能在“我的奴隶”看到你所购买的奴隶。</text>
+      </view>
+      <view>
+        <text>
+03.</text>
+        <text>当你在购买奴隶时，需扣除5金币左右的手续费，用于支付写入区块链所需算力资源的消耗。因此，你的金币余额必须大于【奴隶出售价格与手续费之和】，才能成功发起购买。实际收取的费用将由具体消耗的算力决定，待交易成功后，可在我的订单中查看。
+</text> </view>
+    </view>
+
+  </view>
+
+
+
+</view>

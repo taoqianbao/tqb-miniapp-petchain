@@ -1,3 +1,74 @@
 <!--pages/slave/detail/detail.wxml-->
 <!-- 奴隶详情页 -->
-<text>pages/slave/detail/detail.wxml</text>
+<view class="app">
+  <!-- userinfo img container -->
+  <view class="userinfo-img" style="background-color:rgb(251,233,231);">
+    <view class="img-box">
+      <image mode="widthFix" src="https://blockchain-pet-online.bj.bcebos.com/PET_SVG_f183fa04f4b1300c110fae013afe64ad">
+      </image>
+    </view>
+  </view>
+  <!-- main info container -->
+  <view class='app-body'>
+    <!-- info main -->
+    <view class="info-main">
+      <view class="tags">
+        <text class="raredegree">普通</text>
+        <text class='generation'>第0代</text>
+      </view>
+      <view class="nickname">小菜 0000383883</view>
+      <view class="money">20000.00金币</view>
+    </view>
+    <!-- owner user -->
+    <view class="owner-usr">
+      <view class="info">
+        <text>小明</text>
+        <text class="level">所有者</text>
+      </view>
+      <view class="icon">
+        <image mode="widthFix" src="https://ss0.bdstatic.com/7Ls0a8Sm1A5BphGlnYG/sys/portrait/item/8e423f6d793f3fd10a"></image>
+      </view>
+    </view>
+    <!-- slaver attributes -->
+    <view class="usr-attr">
+      <view class="title">属性</view>
+      <view class="grid2">
+        <view>
+          <text>体型：飞机头</text>
+        </view>
+        <view>
+          <text>花纹：无</text>
+        </view>
+        <view>
+          <text>眼睛：小可爱</text>
+        </view>
+        <view>
+          <text>眼睛色：青苹果</text>
+        </view>
+        <view>
+          <text>嘴巴：地包天</text>
+        </view>
+        <view>
+          <text>肚皮色：白色</text>
+        </view>
+        <view>
+          <text>身体色：淡黄</text>
+        </view>
+        <view>
+          <text>花纹色：褐色</text>
+        </view>
+      </view>
+    </view>
+
+    <!-- btns -->
+    <view class='buy-info' wx:if="{{isYours==false}}">
+      <button type='warn' bindtap='onBuy'>确认购买</button>
+    </view>
+
+    <view class='work-info' wx:else>
+      <button type='primary' bindtap='onWork'>开始打工</button>
+    </view>
+
+  </view>
+
+</view>

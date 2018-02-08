@@ -1,11 +1,11 @@
-// pages/slave/detail/detail.js
+// pages/slave/personal/personal.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    isYours: false
+    menuActiveId: 1
   },
 
   /**
@@ -64,46 +64,9 @@ Page({
 
   },
 
-  /**
-   * onBuy
-   */
-  onBuy: function () {
-
-    let that = this
-
-    wx.showModal({
-      title: '提示',
-      content: '您确定购买？',
-      success: function (res) {
-        if (res.confirm) {
-          console.log('用户点击确定')
-
-          that.setData({
-            isYours: true
-          })
-
-          wx.showToast({
-            title: '成功',
-            icon: 'success',
-            duration: 2000
-          })
-          
-        } else if (res.cancel) {
-          console.log('用户点击取消')
-        }
-      }
-    })
-  },
-
-  /**
-   * onWork
-   */
-  onWork: function(){
-    wx.showToast({
-      title: '他开始挖煤啦',
-      icon: 'success',
-      duration: 2000
-    })
+  onShowMenu: function (event) {
+    let menuid = event.currentTarget.dataset.menuid
+    this.setData({ menuActiveId: menuid })
   }
 
 })

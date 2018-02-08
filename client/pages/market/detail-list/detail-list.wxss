@@ -1,0 +1,40 @@
+/* pages/market/detail-list/detail-list.wxss */
+
+.section {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.section-item {
+  width: 100%;
+  margin: 20rpx 0;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.section-item .section-item-avatar {
+  width: 100rpx;
+  height: 100rpx;
+  margin: 0 30rpx;
+}
+
+.section-item .section-item-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+.section-item .section-item-btns {
+  width: 150rpx;
+  margin-right: 10rpx;
+}
+
+.section-item .section-item-btns button {
+  height: 50rpx;
+  line-height: 50rpx;
+  font-size: 24rpx;
+}

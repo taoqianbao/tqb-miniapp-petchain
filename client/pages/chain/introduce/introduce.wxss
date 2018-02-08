@@ -1,0 +1,37 @@
+/* pages/chain/introduce/introduce.wxss */
+
+page {
+  background: #f6f6f6;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.app {
+  padding: 24rpx;
+  line-height: 2;
+}
+
+.intro-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.intro-header image {
+  width: 230rpx;
+}
+
+/*intro-content*/
+
+.intro-content {
+  font-size: 28rpx;
+  color: #666;
+}
+
+.intro-content .title {
+  color: black;
+  font-weight: bold;
+  font-size: 32rpx;
+  margin: 10rpx 0;
+}
