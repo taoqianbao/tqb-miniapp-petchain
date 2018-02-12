@@ -23,18 +23,27 @@
     "list": [
       {
         "pagePath": "pages/market/market",
-        "iconPath": "assets/imgs/dog.png",
+        "iconPath": "assets/imgs/dog2.png",
+        "selectedIconPath": "assets/imgs/dog.png",
         "text": "奴隶市场"
       },
       {
         "pagePath": "pages/center/center",
-        "iconPath": "assets/imgs/torist.png",
+        "iconPath": "assets/imgs/torist2.png",
+        "selectedIconPath": "assets/imgs/torist.png",
         "text": "菜单中心"
       },
       {
         "pagePath": "pages/slave/personal/personal",
-        "iconPath": "assets/imgs/pig.png",
+        "iconPath": "assets/imgs/pig2.png",
+        "selectedIconPath": "assets/imgs/pig.png",
         "text": "我的奴隶"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "iconPath": "assets/imgs/pig2.png",
+        "selectedIconPath": "assets/imgs/pig.png",
+        "text": "调试"
       }
     ]
   },
