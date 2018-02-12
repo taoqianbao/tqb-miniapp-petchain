@@ -1,7 +1,9 @@
 //user.js
 var qcloud = require('../../vendor/wafer2-client-sdk/index')
 var config = require('../../config')
-var util = require('../../utils/util.js')
+var util = require('../../utils/util')
+
+var promisify = require('../../utils/wxPromisify')
 
 Page({
   data: {
@@ -216,5 +218,28 @@ Page({
     }
     util.showBusy('信道连接中...')
     this.setData({ tunnelStatus: 'closed' })
+  },
+
+  /**
+   * 扫一扫二维码
+   */
+  scanCode: function () {
+    const scanCode = promisify(wx.scanCode)
+    scanCode()
+      .then(res => {
+        console.log(res)
+      })
+      .catch(e => {
+        console.error(e)
+      })
+
+    // wx.scanCode({
+    //   onlyFromCamera: true,
+    //   scanType: [],
+    //   success: function(res) {},
+    //   fail: function(res) {},
+    //   complete: function(res) {},
+    // })
+
   }
 })

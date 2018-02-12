@@ -56,4 +56,11 @@
             <text>快速增加 CGI</text>
         </navigator>
     </view>
+
+    <!-- 扫一扫二维码 -->
+    <view class='uploader'>
+      <view bindtap='scanCode'>
+        扫一扫二维码
+      </view>
+    </view>
 </view>
