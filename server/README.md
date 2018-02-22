@@ -41,7 +41,7 @@ tnpm start
 ## 项目结构
 
 ```
-koa-weapp-demo
+koa-weapp-petchain
 ├── README.md
 ├── app.js
 ├── controllers
