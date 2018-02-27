@@ -6,9 +6,11 @@
   },
   "extends": "standard",
   "rules": {
-    "indent": [2, 4, { "SwitchCase": 1 }],
+    "indent": 1,
+    "semi": 1,
     "arrow-parens": 0,
-    "generator-star-spacing": 0
+    "generator-star-spacing": 0,
+    "camelcase": 1
   },
   "env": {
     "mocha": true

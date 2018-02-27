@@ -1,3 +1,6 @@
+const debug = require('debug')('koa-weapp-petchain')
+debug('start')
+
 /**
  * ajax 服务路由集合
  */

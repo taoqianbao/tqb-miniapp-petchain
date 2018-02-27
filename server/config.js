@@ -47,8 +47,7 @@ const CONF = {
 
     // 微信登录态有效期
     wxLoginExpires: 7200,
-    wxMessageToken: 'abcdefgh',
-
+    // wxMessageToken: 'abcdefgh'
 
     // 本地开发环境搭建配置以下参数
     serverHost: 'localhost',

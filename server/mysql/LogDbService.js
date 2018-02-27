@@ -1,11 +1,10 @@
 const debug = require('debug')('qcloud-sdk[AuthDbService]')
-const uuidGenerator = require('uuid/v4')
+// const uuidGenerator = require('uuid/v4')
 const moment = require('moment')
 const ERRORS = require('../constants').ERRORS
 const { mysql } = require('../qcloud')
 
 function newPageLog(open_id, pagepath, message) {
-
   const create_time = moment().format('YYYY-MM-DD HH:mm:ss')
 
   return mysql('cPageLogs').insert({

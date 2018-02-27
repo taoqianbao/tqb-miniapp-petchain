@@ -1,8 +1,9 @@
+// test function
 async function get(ctx, next) {
   ctx.state.data = {
     msg: 'hello world'
   }
-  ctx.body = "ok"
+  ctx.body = 'ok'
 }
 
 module.exports = {
